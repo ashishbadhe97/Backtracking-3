@@ -7,7 +7,7 @@
  * Time Complexity: O(n * n!) since at every row we have options to place queen in factorial pattern i.e, n then n - 2, then n - 4 and so on
  * Also, for checking safety we check above, left diagnl and right diagnl elements which is n 
  * 
- * Space Complexity: O(n) since in worst case we would have n calls till we reach last row to place queen
+ * Space Complexity: O(n * n) since in worst case we would have n calls till we reach last row to place queen and n for board space
  */
 
 class Solution {

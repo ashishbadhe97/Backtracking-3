@@ -29,7 +29,7 @@ class Solution {
             for(int j = 0 ; j < n ; j++){
                 char ch = word.charAt(0);
 
-                if(board[i][j] == ch){
+                if(board[i][j] == ch & !found){
                     // mark it visited
                     board[i][j] = '#';
                     dfs(board, i, j, 1, word);
